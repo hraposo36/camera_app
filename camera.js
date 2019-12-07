@@ -1,6 +1,6 @@
 // Set constraints for the video stream
-/* var constraints = { audio: true, video: { facingMode: { exact: "environment" } } } // rear camera */
-var constraints = { video: { facingMode: "user" }, audio: false }; // front camera
+var constraints = { audio: true, video: { facingMode: { exact: "environment" } } } // rear camera
+/* var constraints = { video: { facingMode: "user" }, audio: false }; // front camera */
  
 // Define constants
 const cameraView = document.querySelector("#camera--view"),
